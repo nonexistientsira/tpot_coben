@@ -1,4 +1,6 @@
 import random
+#amount of simulations run, default is 15,000 (15k)
+total_simulations = 15000
 #defining vote variables
 donut_votes = 6409
 eraser_votes = 6300
@@ -34,10 +36,8 @@ barfbag_loss = 0
 pin_loss = 0
 needle_loss = 0
 coiny_loss = 0
-#bracketcounter's margin of error
+#bracketcounter's margin of error, editable
 contestant_se = 300
-#other misc variables
-total_simulations = 15000
 for _ in range(total_simulations):
    donut_random_number = random.uniform(donut_votes-contestant_se, donut_votes+contestant_se)
    gaty_random_number = random.uniform(gaty_votes-contestant_se, gaty_votes+contestant_se)
