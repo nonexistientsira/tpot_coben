@@ -1,4 +1,4 @@
-**# TPOT COBEN**
+# **TPOT COBEN**
 program that uses vote data inputted manually from bracketcounter to generate a COBEN list (due to bracketcounter not being 100% accurate). this is a reverse engineer of code made by ```teedster``` in htwins central
 # How to Use
 Open ```bfb_coben.py``` in Visual Studio Code or Notepad (any text/code editor)
