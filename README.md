@@ -1,6 +1,7 @@
 # **TPOT COBEN**
-program that uses vote data inputted manually from bracketcounter to generate a COBEN list (due to bracketcounter not being 100% accurate). this is a reverse engineer of code made by ```teedster``` in htwins central
-# How to Use
+This is a program that uses data given by [BracketCounter](https://github.com/figgyc/bracketcounter) to calculate COBEN based on data regarding BracketCounter's accuracy, as Bracket has been known to over/underestimate the counts by around 300, at most.<br>
+Note that this, NOR BracketCounter can give accurate representations on who is going to be eliminated in TPOT *x*.
+# How to Use + Setup
 Open ```bfb_coben.py``` in Visual Studio Code or Notepad (any text/code editor)<br>
 Edit the variables at the beginning to your desire (contestants, vote counts, margin of error (contestant_se), total simulations) (do note you would need to rename the variables if you want to change the characters, I'd recommend a find and replace tool to do this easily)
 # Running the Code
