@@ -9,7 +9,7 @@ There are two ways I've successfully tried running the code.<br>
 **1. Visual Studio Code**<br>
 a) Open the code with Visual Studio Code, then run it with the play button.<br>
 **2. Command Prompt**<br>
-Sometimes, I have a terminal connection error! This is how I run it when that happens.<br>
+Sometimes, I have an error! This is how I run it when that happens.<br>
 a) Open cmd.exe<br>
 b) Use ```cd``` to the path where ```bfb_coben.py``` is stored.<br>
 c) Run ```python bfb_coben.py```<br>
